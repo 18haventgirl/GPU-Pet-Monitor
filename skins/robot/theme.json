@@ -1,0 +1,27 @@
+{
+  "panel": {
+    "background": "rgba(10, 15, 25, 0.8)",
+    "border_radius": 8,
+    "border_color": "rgba(0, 200, 150, 0.2)",
+    "blur_radius": 10
+  },
+  "progress_bar": {
+    "normal": { "color": "#00E676", "background": "#004D40" },
+    "warning": { "color": "#FFAB00", "background": "#4E342E" },
+    "critical": { "color": "#FF1744", "background": "#311B1B" }
+  },
+  "text": {
+    "primary": "#E0F7FA",
+    "secondary": "#80CBC4",
+    "accent": "#00E5FF",
+    "font_family": "Consolas, monospace",
+    "font_size": 12
+  },
+  "indicators": {
+    "gpu_bar": { "icon": "▸", "label": "GPU" },
+    "vram_bar": { "icon": "▸", "label": "VRAM" },
+    "temp": { "icon": "▸", "label": "TEMP" },
+    "power": { "icon": "▸", "label": "PWR" },
+    "fan": { "icon": "▸", "label": "FAN" }
+  }
+}

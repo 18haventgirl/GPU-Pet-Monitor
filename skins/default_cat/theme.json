@@ -1,0 +1,27 @@
+{
+  "panel": {
+    "background": "rgba(30, 30, 40, 0.75)",
+    "border_radius": 16,
+    "border_color": "rgba(255, 255, 255, 0.1)",
+    "blur_radius": 10
+  },
+  "progress_bar": {
+    "normal": { "color": "#4CAF50", "background": "#2E7D32" },
+    "warning": { "color": "#FF9800", "background": "#E65100" },
+    "critical": { "color": "#F44336", "background": "#B71C1C" }
+  },
+  "text": {
+    "primary": "#FFFFFF",
+    "secondary": "#B0BEC5",
+    "accent": "#4FC3F7",
+    "font_family": "Consolas, 'Courier New', monospace",
+    "font_size": 12
+  },
+  "indicators": {
+    "gpu_bar": { "icon": "🖥", "label": "GPU" },
+    "vram_bar": { "icon": "💾", "label": "VRAM" },
+    "temp": { "icon": "🌡", "label": "TEMP" },
+    "power": { "icon": "⚡", "label": "PWR" },
+    "fan": { "icon": "🌀", "label": "FAN" }
+  }
+}

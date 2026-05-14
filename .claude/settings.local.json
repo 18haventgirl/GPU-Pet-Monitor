@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python src/main.py)",
+      "Bash(kill %1)",
+      "Bash(python *)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(pip uninstall *)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(pyinstaller gpu_pet.spec --noconfirm)",
+      "Bash(timeout 5 dist/GPU-Pet-Monitor.exe)",
+      "Bash(rmdir /s /q build dist)",
+      "Bash(pyinstaller --onefile --noconfirm --name \"GPU-Pet-Monitor\" --add-data \"skins;skins\" --hidden-import pynvml --hidden-import src.animation.procedural_animator --hidden-import src.skins.skin_manager --hidden-import src.utils.fonts --hidden-import src.platform.windows --exclude-module tkinter --exclude-module matplotlib run.py)",
+      "Bash(where ffi.dll)",
+      "Read(//d/Tools/conda/DLLs/**)",
+      "Bash(pyinstaller --onefile --noconfirm --name \"GPU-Pet-Monitor\" --add-data \"skins;skins\" --add-binary \"D:\\\\Tools\\\\conda\\\\Library\\\\bin\\\\ffi.dll;.\" --hidden-import pynvml --hidden-import src.animation.procedural_animator --hidden-import src.skins.skin_manager --hidden-import src.utils.fonts --hidden-import src.platform.windows --exclude-module tkinter --exclude-module matplotlib run.py)",
+      "Bash(pyinstaller --onefile --windowed --noconfirm --name \"GPU-Pet-Monitor\" --add-data \"skins;skins\" --add-binary \"D:\\\\Tools\\\\conda\\\\Library\\\\bin\\\\ffi.dll;.\" --hidden-import pynvml --hidden-import src.animation.procedural_animator --hidden-import src.skins.skin_manager --hidden-import src.utils.fonts --hidden-import src.platform.windows --exclude-module tkinter --exclude-module matplotlib run.py)",
+      "Bash(rm -rf build dist)",
+      "Bash(pyinstaller --onefile --windowed --noconfirm --name \"GPU-Pet-Monitor\" --add-data \"skins;skins\" --add-binary \"D:/Tools/conda/Library/bin/ffi.dll;.\" --hidden-import pynvml --hidden-import src.animation.procedural_animator --hidden-import src.skins.skin_manager --hidden-import src.utils.fonts --hidden-import src.platform.windows --exclude-module tkinter --exclude-module matplotlib run.py)",
+      "Bash(timeout 4 dist/GPU-Pet-Monitor.exe)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)"
+    ]
+  }
+}

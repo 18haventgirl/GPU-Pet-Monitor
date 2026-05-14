@@ -1,0 +1,9 @@
+{
+  "id": "bunny", "name": "GPU Bunny", "version": "1.0.0", "author": "GPUPet Team",
+  "description": "蹦蹦跳跳的长耳兔", "character_type": "bunny",
+  "animation_type": "procedural",
+  "default_size": { "width": 200, "height": 200 }, "scale_range": [0.5, 2.0],
+  "animations": {
+    "idle": {}, "normal": {}, "working": {}, "warning": {}, "critical": {}, "greeting": {}
+  }
+}

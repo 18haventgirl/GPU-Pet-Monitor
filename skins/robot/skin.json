@@ -1,0 +1,9 @@
+{
+  "id": "robot", "name": "Mini GPU Bot", "version": "1.0.0", "author": "GPUPet Team",
+  "description": "方方的可爱机器人助手", "character_type": "robot",
+  "animation_type": "procedural",
+  "default_size": { "width": 200, "height": 200 }, "scale_range": [0.5, 2.0],
+  "animations": {
+    "idle": {}, "normal": {}, "working": {}, "warning": {}, "critical": {}, "greeting": {}
+  }
+}

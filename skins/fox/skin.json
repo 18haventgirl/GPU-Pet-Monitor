@@ -1,0 +1,9 @@
+{
+  "id": "fox", "name": "Data Fox", "version": "1.0.0", "author": "GPUPet Team",
+  "description": "机灵的数据小狐狸", "character_type": "fox",
+  "animation_type": "procedural",
+  "default_size": { "width": 200, "height": 200 }, "scale_range": [0.5, 2.0],
+  "animations": {
+    "idle": {}, "normal": {}, "working": {}, "warning": {}, "critical": {}, "greeting": {}
+  }
+}

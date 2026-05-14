@@ -1,0 +1,9 @@
+{
+  "id": "default_cat", "name": "GPU Cat", "version": "1.0.0", "author": "GPUPet Team",
+  "description": "圆滚滚的Q版小猫咪", "character_type": "cat",
+  "animation_type": "procedural",
+  "default_size": { "width": 200, "height": 200 }, "scale_range": [0.5, 2.0],
+  "animations": {
+    "idle": {}, "normal": {}, "working": {}, "warning": {}, "critical": {}, "greeting": {}
+  }
+}

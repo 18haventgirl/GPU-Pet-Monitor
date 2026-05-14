@@ -1,0 +1,9 @@
+{
+  "id": "slime", "name": "GPU Slime", "version": "1.0.0", "author": "GPUPet Team",
+  "description": "Q弹的小史莱姆", "character_type": "slime",
+  "animation_type": "procedural",
+  "default_size": { "width": 200, "height": 200 }, "scale_range": [0.5, 2.0],
+  "animations": {
+    "idle": {}, "normal": {}, "working": {}, "warning": {}, "critical": {}, "greeting": {}
+  }
+}
