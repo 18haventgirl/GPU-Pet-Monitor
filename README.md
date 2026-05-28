@@ -1,12 +1,6 @@
 # 🐾 GPU Pet Monitor
 
-> 一只可爱的桌面宠物，实时监控你的 NVIDIA GPU 状态。
-
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)
-![Python](https://img.shields.io/badge/python-3.10%2B-green)
-![License](https://img.shields.io/badge/license-MIT-yellow)
-
-## 截图预览
+> 实时监控你的 NVIDIA GPU 状态。
 
 桌面悬浮窗，宠物根据 GPU 状态自动变化表情和颜色：
 
@@ -34,16 +28,6 @@
 
 从 [Releases](../../releases) 下载 `GPU-Pet-Monitor.exe`，双击运行即可。
 
-### 方式二：源码运行
-
-```bash
-# 安装依赖
-pip install PyQt5 nvidia-ml-py
-
-# 运行
-python src/main.py
-```
-
 ## 托盘菜单
 
 | 菜单 | 功能 |
@@ -59,24 +43,6 @@ python src/main.py
 
 6 个标签页：GPU 选择、外观（皮肤/缩放/透明度）、数据显示、阈值滑块、通知开关、关于。
 
-## 皮肤制作
-
-在 `skins/` 目录下创建新文件夹，添加 `skin.json`：
-
-```json
-{
-  "id": "my_skin",
-  "name": "我的皮肤",
-  "description": "自定义宠物",
-  "character_type": "cat",
-  "animation_type": "procedural",
-  "animations": {
-    "idle": {}, "normal": {}, "working": {}, "warning": {}, "critical": {}
-  }
-}
-```
-
-`character_type` 可选值：`cat`, `robot`, `fox`, `bunny`, `demon`, `slime`, `penguin`, `hamster`
 
 ## 技术栈
 
@@ -84,7 +50,3 @@ python src/main.py
 - PyQt5 — GUI 框架
 - nvidia-ml-py — NVIDIA GPU 数据采集
 - PyInstaller — 打包为独立 exe
-
-## 许可
-
-MIT License
